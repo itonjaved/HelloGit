@@ -37,7 +37,7 @@ public class MyVaadinApplication extends Application
         Button button = new Button("Click Me");
         button.addListener(new Button.ClickListener() {
             public void buttonClick(ClickEvent event) {
-                window.addComponent(new Label("Thank you for clicking one"));
+                window.addComponent(new Label("Thank you for clicking two"));
             }
         });
         window.addComponent(button);
